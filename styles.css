@@ -1,0 +1,222 @@
+body {
+  background-color: #3b473e;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-family: 'Garamond', serif;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #d0d8e5;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 200px;
+}
+
+h3 {
+  color: #d0d8e5;
+  font-family: 'Playfair Display', serif;
+}
+
+a {
+  color: #d0d8e5;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+    color: white;
+    line-height: 2;
+}
+
+hr {
+  border-top: none;
+  border-bottom: none;
+  width: 4%;
+  margin: 0px auto 0px auto;
+}
+
+.bg {
+  margin: 0;
+  position: relative;
+  text-align: center;
+  color: lavender;
+}
+
+.jack-bg {
+  height: 100%;
+  width: 100%;
+  margin: none;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+}
+
+.subtitle {
+  color: white;
+  margin: 50px auto;
+}
+
+.intro {
+  width: 70%;
+  margin: auto;
+}
+
+.headshot-row {
+  margin: 80px auto 0 auto;
+  width: 50%;
+}
+
+.headshot {
+  height: 100%;
+  margin: 20px auto 0 auto;
+  width: 100%;
+}
+.h-r-btn {
+background: #d0d8e5;
+background-image: -webkit-linear-gradient(top, #d0d8e5, #9ca6b2);
+background-image: -moz-linear-gradient(top, #d0d8e5, #9ca6b2);
+background-image: -ms-linear-gradient(top, #d0d8e5, #9ca6b2);
+background-image: -o-linear-gradient(top, #d0d8e5, #9ca6b2);
+background-image: -webkit-gradient(to bottom, #d0d8e5, #9ca6b2);
+-webkit-border-radius: 9px;
+-moz-border-radius: 9px;
+border-radius: 9px;
+height: 18px;
+line-height: 18px;
+color: #3b473e;
+font-family: 'Merriweather', serif;
+width: 250px;
+font-size: 20px;
+font-weight: 100;
+padding: 15px;
+text-decoration: none;
+display: inline-block;
+cursor: pointer;
+text-align: center;
+margin-bottom: 0px;
+margin-top: 50px;
+}
+
+.h-r-btn:hover {
+   background: white;
+   background-image: -webkit-linear-gradient(top, white, #d0d8e5);
+   background-image: -moz-linear-gradient(top, white, #d0d8e5);
+   background-image: -ms-linear-gradient(top, white, #d0d8e5);
+   background-image: -o-linear-gradient(top, white, #d0d8e5);
+   background-image: -webkit-gradient(to bottom, white, #d0d8e5);
+   -webkit-border-radius: 9px;
+   -moz-border-radius: 9px;
+   border-radius: 9px;
+   text-decoration: none;
+   color: #3b473e;
+}
+
+.resume {
+  height: 60%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.news {
+  width: 50%;
+  margin: 0 auto 100px auto;
+  text-align: left;
+}
+
+.news-row1 {
+  margin: 0px auto 100px auto;
+}
+
+.news-row {
+  margin: 150px auto 100px auto;
+}
+
+.chris-image {
+width: 50%;
+margin: 0px 30px 50px auto;
+border-radius: 50px;
+float: left;
+}
+
+.stash-image {
+  width: 50%;
+  margin: 0px auto 50px 30px;
+  border-radius: 50px;
+  float: right;
+}
+
+.btn {
+background: #d0d8e5;
+background-image: -webkit-linear-gradient(top, #d0d8e5, #9ca6b2);
+background-image: -moz-linear-gradient(top, #d0d8e5, #9ca6b2);
+background-image: -ms-linear-gradient(top, #d0d8e5, #9ca6b2);
+background-image: -o-linear-gradient(top, #d0d8e5, #9ca6b2);
+background-image: -webkit-gradient(to bottom, #d0d8e5, #9ca6b2);
+-webkit-border-radius: 9px;
+-moz-border-radius: 9px;
+border-radius: 9px;
+height: 18px;
+line-height: 18px;
+color: #3b473e;
+font-family: 'Merriweather', serif;
+width: 150px;
+font-size: 20px;
+font-weight: 100;
+padding: 15px;
+text-decoration: none;
+display: inline-block;
+cursor: pointer;
+text-align: center;
+margin-bottom: 80px;
+margin-top: 50px;
+}
+
+.btn:hover {
+   background: white;
+   background-image: -webkit-linear-gradient(top, white, #d0d8e5);
+   background-image: -moz-linear-gradient(top, white, #d0d8e5);
+   background-image: -ms-linear-gradient(top, white, #d0d8e5);
+   background-image: -o-linear-gradient(top, white, #d0d8e5);
+   background-image: -webkit-gradient(to bottom, white, #d0d8e5);
+   -webkit-border-radius: 9px;
+   -moz-border-radius: 9px;
+   border-radius: 9px;
+   text-decoration: none;
+   color: #3b473e;
+}
+
+.bottom-container {
+  margin: 0px auto 0px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.footer-link {
+  color: #76828e;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  margin: 0px 10px 0px 10px;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 14px;
+  padding-bottom: 60px;
+  padding-top: 20px;
+}
